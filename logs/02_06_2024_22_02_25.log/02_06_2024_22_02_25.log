@@ -1,0 +1,9 @@
+[2024-02-06 22:02:27,691]26root-INFO-Entered the data ingestion method or component
+[2024-02-06 22:02:27,691]29root-INFO-Read the dataset as dataframe
+[2024-02-06 22:02:27,702]35root-INFO-Train test split initiated
+[2024-02-06 22:02:27,717]42root-INFO-Inmgestion of the data iss completed
+[2024-02-06 22:02:27,736]71root-INFO-Read train and test data
+[2024-02-06 22:02:27,736]73root-INFO-Obtaining preprocessing object
+[2024-02-06 22:02:27,736]24root-INFO-Data Transformation has started
+[2024-02-06 22:02:27,736]52root-INFO-Numerical columns: {numerical_columns}
+[2024-02-06 22:02:27,736]53root-INFO-Categorical columns: {categorical_columns}
