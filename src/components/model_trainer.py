@@ -52,7 +52,7 @@ class ModelTrainer:
                 "CatBoost":CatBoostRegressor()
             }
             
-            model_report=dict=evaluate_model(X_train=X_train,y_train=y_train,X_test=X_test,y_test=y_test,models=models)
+            model_report:dict=evaluate_model(X_train=X_train,y_train=y_train,X_test=X_test,y_test=y_test,models=models)
             
             ## To get the best model from the model report
             
@@ -68,7 +68,7 @@ class ModelTrainer:
             logging.info(f"Best model found on both training and testing dataset")
             
             save_object(
-                file_path=self.model_trainer_config.trained_model_file_path,
+                file_path=self.config.trained_model_file_path,
                 obj=best_model
             )
             
